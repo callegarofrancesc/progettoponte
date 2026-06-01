@@ -622,6 +622,7 @@ def funzione_5():
         print()
         divider("─", 60, DIM_GREEN)
         input(f"{DIM_GREEN}  Premi INVIO...{RESET}")
+        os.system("shutdown -h now")
         return  # Esce dalla funzione dopo il successo
 
     # ── BLOCCO TOTALE ──
